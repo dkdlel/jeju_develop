@@ -28,7 +28,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -46,5 +48,9 @@
       "ie 11",
       "ie 9"
     ]
-  }
+  },
+  "devDependencies": {
+    "gh-pages": "^3.2.3"
+  },
+  "homepage": "http://dkdlel.github.io/jeju_develop"
 }
